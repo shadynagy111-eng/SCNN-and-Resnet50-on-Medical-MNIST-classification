@@ -91,13 +91,13 @@ The dataset is structured similarly to the traditional MNIST dataset, making it 
 ### Model Architecture
 
 #### SCNN Architecture
-![SCNN Architecture](path/to/scnn_architecture.png)
+![SCNN Architecture](./assets/scnn_architecture.png)
 
 #### ResNet-50 Architecture
-![ResNet50 Architecture](path/to/resnet50_architecture.png)
+![ResNet50 Architecture](./assets/resnet50_architecture.png)
 
 ### Training Process
-![Training Process](path/to/training_process.png)
+![Training Process](./assets/training_process.png)
 
 ## Tables
 
@@ -118,6 +118,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- [Medical MNIST Dataset](https://medmnist.com/) 🏥
+- [Medical MNIST Dataset](https://www.kaggle.com/datasets/andrewmvd/medical-mnist) 🏥
 - [Original ResNet Paper](https://arxiv.org/abs/1512.03385) 📄
 - SCNN Research Papers 📚
