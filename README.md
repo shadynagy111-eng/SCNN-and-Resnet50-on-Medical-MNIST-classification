@@ -25,7 +25,7 @@ The dataset is structured similarly to the traditional MNIST dataset, making it 
 ## Features
 
 - **SCNN Implementation**: A custom implementation of the Spiking Convolutional Neural Network tailored for medical image classification. 🧠
-- **ResNet-50 Implementation**: Utilization of the pre-trained ResNet-50 model for transfer learning, fine-tuned on the Medical MNIST dataset. 🖼️
+- **ResNet-50 Implementation**: Utilization of ResNet-50 model on the Medical MNIST dataset. 🖼️
 - **Data Preprocessing**: Scripts for data loading, normalization, and augmentation to enhance model performance. 📈
 - **Training and Evaluation**: Comprehensive training scripts with evaluation metrics to assess model performance. 🏋️‍♂️
 - **Visualization**: Tools for visualizing training progress, loss curves, and model predictions. 📊
