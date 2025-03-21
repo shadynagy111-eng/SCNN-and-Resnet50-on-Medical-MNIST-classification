@@ -1,0 +1,3 @@
+1- Download dataset from Kaggle: https://www.kaggle.com/datasets/andrewmvd/medical-mnist
+2- Create Folder called "raw"
+3- put the extracted data inside "raw" folder

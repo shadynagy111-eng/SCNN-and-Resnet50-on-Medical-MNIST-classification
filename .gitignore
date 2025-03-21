@@ -1,0 +1,28 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore data folder
+data/raw/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any other temporary or backup files
+*.bak
+*.swp
