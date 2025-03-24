@@ -26,3 +26,6 @@ Thumbs.db
 # Ignore any other temporary or backup files
 *.bak
 *.swp
+
+/notebooks/spike_gifs/
+/notebooks/spike_plots/
