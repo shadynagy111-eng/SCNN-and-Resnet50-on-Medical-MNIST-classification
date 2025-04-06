@@ -103,9 +103,9 @@ The dataset is structured similarly to the traditional MNIST dataset, making it 
 
 ### Performance Comparison
 
-| Model   | Accuracy | Training Time | Computational Efficiency |
-|---------|----------|---------------|--------------------------|
-| SCNN    | ____     | _______       | ____                     |
+| Model     | Accuracy | Training Time | Computational Efficiency |
+|-----------|----------|---------------|--------------------------|
+| SCNN      | 99.47     | _______       | ____                     |
 | ResNet-50 | ____     | _______       | ____                     |
 
 ## Contributing
