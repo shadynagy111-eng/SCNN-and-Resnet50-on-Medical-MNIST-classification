@@ -29,5 +29,6 @@ Thumbs.db
 
 /notebooks/spike_gifs/
 /notebooks/spike_plots/
+/notebooks/Resnet50_CM_plots/
 /notebooks/SCNN_checkpoints/
 /notebooks/test_image.jpeg

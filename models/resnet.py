@@ -137,25 +137,26 @@ class ResNet(nn.Module):
         return nn.Sequential(*layers)
 
 
-def ResNet50(img_channel=3, num_classes=1000):
+def ResNet50(img_channel=1, num_classes=6):
     return ResNet(block, [3, 4, 6, 3], img_channel, num_classes)
 
 
-def ResNet101(img_channel=3, num_classes=1000):
+def ResNet101(img_channel=1, num_classes=6):
     return ResNet(block, [3, 4, 23, 3], img_channel, num_classes)
 
 
-def ResNet152(img_channel=3, num_classes=1000):
+def ResNet152(img_channel=1, num_classes=6):
     return ResNet(block, [3, 8, 36, 3], img_channel, num_classes)
 
 
 def test():
-    BATCH_SIZE = 4
+    BATCH_SIZE = 16
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    net = ResNet101(img_channel=3, num_classes=1000).to(device)
-    y = net(torch.randn(BATCH_SIZE, 3, 224, 224)).to(device)
-    assert y.size() == torch.Size([BATCH_SIZE, 1000])
-    print(y.size())
+    net = ResNet50(img_channel=1, num_classes=6).to(device)
+    input_tensor = torch.randn(BATCH_SIZE, 1, 64, 64).to(device)
+    y = net(input_tensor)
+    assert y.size() == torch.Size([BATCH_SIZE, 6])
+    print("Output shape:", y.size())
 
 
 if __name__ == "__main__":
